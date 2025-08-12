@@ -1,0 +1,60 @@
+@keyframes flipY {
+  0% {
+    transform: translateY(-50%) scaleX(-1);
+  }
+
+  50% {
+    transform: translateY(-50%) scaleX(0);
+  }
+
+  100% {
+    transform: translateY(-50%) scaleX(1);
+  }
+}
+
+@keyframes flipX {
+  0% {
+    transform: translateY(-50%) scaleY(-1);
+  }
+
+  50% {
+    transform: translateY(-50%) scaleY(0);
+  }
+
+  100% {
+    transform: translateY(-50%) scaleY(1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+@keyframes up-down {
+  from {
+    transform: translateY(400px);
+  }
+
+  to {
+    transform: translateY(-800px);
+  }
+
+}
+
+@keyframes up-down-low-step {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-5px);
+  }
+
+}

@@ -1,0 +1,44 @@
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.sticky-top {
+    position: sticky;
+}
+
+.wd-full {
+    width: 100% !important;
+}
+
+.wd-mobile-full {
+    @media(max-width:700px) {
+
+        & {
+            width: 100% !important;
+        }
+    }
+}
+
+.wd-fit {
+    width: fit-content !important;
+}
+
+.ht-fit {
+    height: fit-content !important;
+}
+
+.ht-full {
+    height: 100% !important;
+}

@@ -1,0 +1,270 @@
+.border-none {
+  border: none !important;
+  outline: none !important;
+}
+
+@for $i from 0 through 5 {
+  .radius-#{$i * 5} {
+    border-radius:#{$i * 5px} !important;
+  }
+}
+
+
+/*red border*/
+
+@for $px from 0 through 7 {
+  .border-red-#{$px +1} {
+    border:#{$px + 1px} solid var(--red-color) !important;
+  }
+}
+
+@for $px from 0 through 7 {
+  .outline-r-#{$px +1} {
+    outline:#{$px + 1px} solid var(--red-color) !important;
+  }
+}
+
+/*blue border*/
+
+@for $px from 0 through 7 {
+  .border-bl-#{$px +1} {
+    border:#{$px + 1px} solid var(--blue-color) !important;
+  }
+}
+
+@for $px from 0 through 7 {
+  .outline-bl-#{$px +1} {
+    outline:#{$px + 1px} solid var(--blue-color) !important;
+  }
+}
+
+/*orange border*/
+
+@for $px from 0 through 7 {
+  .border-og-#{$px +1} {
+    border:#{$px + 1px} solid var(--orange-color) !important;
+  }
+}
+
+@for $px from 0 through 7 {
+  .outline-og-#{$px +1} {
+    outline:#{$px + 1px} solid var(--orange-color) !important;
+  }
+}
+
+/*green border*/
+
+@for $px from 0 through 7 {
+  .border-gr-#{$px +1} {
+    border:#{$px + 1px} solid var(--green-color) !important;
+  }
+}
+
+@for $px from 0 through 7 {
+  .outline-gr-#{$px +1} {
+    outline:#{$px + 1px} solid var(--green-color) !important;
+  }
+}
+
+/*gray border*/
+@for $px from 0 through 7 {
+  .border-gy-#{$px +1} {
+    border:#{$px + 1px} solid var(--grey-color) !important;
+  }
+}
+
+@for $px from 0 through 7 {
+  .outline-gy-#{$px +1} {
+    outline:#{$px + 1px} solid var(--gray-color) !important;
+  }
+}
+
+/*red border */
+
+@for $px from 0 through 7 {
+  .border-l-red-#{$px +1} {
+    border-left:#{$px + 1px} solid var(--red-color) !important;
+  }
+}
+
+/*blue border left*/
+
+@for $px from 0 through 7 {
+  .border-l-bl-#{$px +1} {
+    border-left:#{$px + 1px} solid var(--blue-color) !important;
+  }
+}
+
+/*orange border */
+
+@for $px from 0 through 7 {
+  .border-l-og-#{$px +1} {
+    border-left:#{$px + 1px} solid var(--orange-color) !important;
+  }
+}
+
+/*green border */
+
+@for $px from 0 through 7 {
+  .border-l-gr-#{$px +1} {
+    border-left:#{$px + 1px} solid var(--green-color) !important;
+  }
+}
+
+/*gray border */
+@for $px from 0 through 7 {
+  .border-l-gy-#{$px +1} {
+    border-left:#{$px + 1px} solid var(--grey-color) !important;
+  }
+}
+
+/*red border */
+
+@for $px from 0 through 7 {
+  .border-b-red-#{$px +1} {
+    border-bottom:#{$px + 1px} solid var(--red-color) !important;
+  }
+}
+
+/*blue border*/
+
+@for $px from 0 through 7 {
+  .border-b-bl-#{$px +1} {
+    border-bottom:#{$px + 1px} solid var(--blue-color) !important;
+  }
+}
+
+/*orange border*/
+
+@for $px from 0 through 7 {
+  .border-b-og-#{$px +1} {
+    border-bottom:#{$px + 1px} solid var(--orange-color) !important;
+  }
+}
+
+/*green border*/
+
+@for $px from 0 through 7 {
+  .border-b-gr-#{$px +1} {
+    border-bottom:#{$px + 1px} solid var(--green-color) !important;
+  }
+}
+
+/*gray border*/
+@for $px from 0 through 7 {
+  .border-b-gy-#{$px +1} {
+    border-bottom:#{$px + 1px} solid var(--grey-color) !important;
+  }
+}
+
+/*red border*/
+
+@for $px from 0 through 7 {
+  .border-r-red-#{$px +1} {
+    border-right:#{$px + 1px} solid var(--red-color) !important;
+  }
+}
+
+/*blue border*/
+
+@for $px from 0 through 7 {
+  .border-r-bl-#{$px +1} {
+    border-right:#{$px + 1px} solid var(--blue-color) !important;
+  }
+}
+
+/*orange border*/
+
+@for $px from 0 through 7 {
+  .border-r-og-#{$px +1} {
+    border-right:#{$px + 1px} solid var(--orange-color) !important;
+  }
+}
+
+/*green border*/
+
+@for $px from 0 through 7 {
+  .border-r-gr-#{$px +1} {
+    border-right:#{$px + 1px} solid var(--green-color) !important;
+  }
+}
+
+/*gray border*/
+@for $px from 0 through 7 {
+  .border-r-gy-#{$px +1} {
+    border-right:#{$px + 1px} solid var(--grey-color) !important;
+  }
+}
+
+/*red border*/
+
+@for $px from 0 through 7 {
+  .border-t-red-#{$px +1} {
+    border-top:#{$px + 1px} solid var(--red-color) !important;
+  }
+}
+
+/*blue border*/
+
+@for $px from 0 through 7 {
+  .border-t-bl-#{$px +1} {
+    border-top:#{$px + 1px} solid var(--blue-color) !important;
+  }
+}
+
+/*orange border*/
+
+@for $px from 0 through 7 {
+  .border-t-og-#{$px +1} {
+    border-top:#{$px + 1px} solid var(--orange-color) !important;
+  }
+}
+
+/*green border*/
+
+@for $px from 0 through 7 {
+  .border-t-gr-#{$px +1} {
+    border-top:#{$px + 1px} solid var(--green-color) !important;
+  }
+}
+
+/*gray border*/
+@for $px from 0 through 7 {
+  .border-t-gy-#{$px +1} {
+    border-top:#{$px + 1px} solid var(--grey-color) !important;
+  }
+}
+
+/*EEE border*/
+@for $px from 0 through 7 {
+  .border-eee-#{$px +1} {
+    border:#{$px + 1px} solid #EEE !important;
+  }
+}
+
+@for $px from 0 through 7 {
+  .border-r-eee-#{$px +1} {
+    border-right:#{$px + 1px} solid #EEE !important;
+  }
+}
+
+/*EEE border*/
+@for $px from 0 through 7 {
+  .border-t-eee-#{$px +1} {
+    border-top:#{$px + 1px} solid #EEE !important;
+  }
+}
+
+/*EEE border*/
+@for $px from 0 through 7 {
+  .border-b-eee-#{$px +1} {
+    border-bottom:#{$px + 1px} solid #EEE !important;
+  }
+}
+
+/*EEE border*/
+@for $px from 0 through 7 {
+  .border-l-eee-#{$px +1} {
+    border-left:#{$px + 1px} solid #EEE !important;
+  }
+}

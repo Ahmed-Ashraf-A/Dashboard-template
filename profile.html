@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desing 4 | Dashboard</title>
+  <!-- my framework  -->
+  <link rel="stylesheet" href="css/framework.css">
+  <!-- css main file  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="page d-flex">
+    <div class="sidebar  bg-white p-10  relative">
+      <h3 class="relative text-c mt-0 pt-10 mb-50 t-bold ">ultimate</h3>
+      <ul>
+        <li>
+          <a href="index.html" class="d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-chart-bar fa-fw"></i>
+            <span class="  pr-50">dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-solid fa-gear fa-fw"></i>
+            <span class="  pr-50">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class="active d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-user fa-fw"></i>
+            <span class="  pr-50">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-solid fa-diagram-project fa-fw"></i>
+            <span class="  pr-50">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-circle-user fa-fw"></i>
+            <span class="  pr-50">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-file fa-fw"></i>
+            <span class="  pr-50">Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-credit-card fa-fw"></i>
+            <span class="  pr-50">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="header bg-white d-flex al-center jsf-between pl-5 p-10">
+        <div class="search relative">
+          <input class="radius-10 ml-5 pl-30 focus" type="search" placeholder="type a keyword">
+        </div>
+        <div class="icons d-flex al-center  pl-5">
+          <span class="relative notifaction">
+            <i class="fa-fw fa-regular fa-bell fa-shake size-20"></i>
+          </span>
+          <img src="imgs/avatar.png">
+        </div>
+      </div>
+      <!-- strat profile page -->
+      <div class="m-20 m-mobile-10">
+        <h1 class="relative size-32">Profile</h1>
+        <div class="overview widget mb-20">
+          <div class="user-box text-c pl-0 p-20">
+            <img class="radius-half mb-10" src="imgs/avatar.png" alt="">
+            <h3 class="m-0">ahmed achraf</h3>
+            <p class="c-gray mt-10">Level 6</p>
+            <div class="level">
+              <span></span>
+            </div>
+            <div class="rating mt-10 mb-10">
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+              <i class="fa-solid fa-star c-orange fs-13"></i>
+            </div>
+          </div>
+          <div class="info-box w-full text-mb-cen">
+            <!-- Start Information Row -->
+            <div class="box p-20 d-flex align-center">
+              <h4 class="c-gray size-15 m-0 wd-full">General Information</h4>
+              <div class="size-14 info">
+                <span class="c-gray">Full Name</span>
+                <span>ahmed achraf 3bd elsatar</span>
+              </div>
+              <div class="size-14 info">
+                <span class="c-gray">Gender:</span>
+                <span>Male</span>
+              </div>
+              <div class="size-14 info">
+                <span class="c-gray">Country:</span>
+                <span>Egypt</span>
+              </div>
+            </div>
+            <!-- End Information Row -->
+            <!-- Start Information Row -->
+            <div class="box p-20 d-flex align-center">
+              <h4 class="c-gray size-15 m-0 wd-full">Personal Information</h4>
+              <div class="size-14 info">
+                <span class="c-gray">Email:</span>
+                <span>a7med@gmail.info</span>
+              </div>
+              <div class="size-14 info">
+                <span class="c-gray">Phone:</span>
+                <span>0101214161820</span>
+              </div>
+              <div class="size-14 info">
+                <span class="c-gray">Date Of Birth:</span>
+                <span>29/8/2010</span>
+              </div>
+            </div>
+            <!-- End Information Row -->
+            <!-- Start Information Row -->
+            <div class="box p-20 d-flex align-center">
+              <h4 class="c-gray size-15 m-0 wd-full">Job Information</h4>
+              <div class="size-14 info">
+                <span class="c-gray">Title:</span>
+                <span>Front-end Developer</span>
+              </div>
+              <div class="size-14 info">
+                <span class="c-gray">Programming Language:</span>
+                <span>java script</span>
+              </div>
+            </div>
+            <!-- End Information Row -->
+          </div>
+        </div>
+        <div class="wd-full d-grid gap-10 other-data">
+          <div class="widget p-10 flex-gr-3">
+            <div class="text">
+              <h2>My Skills</h2>
+              <p class="c-gray size-13">Complete Skills List</p>
+            </div>
+            <ul class="skils-list">
+              <li>
+                <span class="transparent-button p-5 text-up">html</span>
+                <span class="transparent-button p-5">javaScript</span>
+                <span class="transparent-button p-5 text-up">css</span>
+              </li>
+              <li>
+                <span class="transparent-button p-5 text-up">html</span>
+                <span class="transparent-button p-5">typeScript</span>
+              </li>
+              <li>
+                <span class="transparent-button p-5 text-up">css</span>
+                <span class="transparent-button p-5">javaScript</span>
+                <span class="transparent-button p-5">sass</span>
+              </li>
+              <li>
+                <span class="transparent-button p-5">sass</span>
+                <span class="transparent-button p-5 text-up">css</span>
+                <span class="transparent-button p-5 text-up">html</span>
+              </li>
+              <li>
+                <span class="transparent-button p-5">typeScript</span>
+                <span class="transparent-button p-5">javaScript</span>
+              </li>
+            </ul>
+          </div>
+          <div class="widget flex-gr-x1">
+            <div class="text">
+              <h2>Latest Activities</h2>
+              <p class="c-gray size-13">Latest Activities Done By The User</p>
+            </div>
+            <div class="rows">
+              <div class="row d-flex jsf-between">
+                <div>
+                  <img src="imgs/activity-01.png">
+                  <div>
+                    <p>store</p>
+                    <p>Bought The Mastering c++ Course</p>
+                  </div>
+                </div>
+                <div>
+                  <p>18:10</p>
+                  <p class="c-gray">Yesterday</p>
+                </div>
+              </div>
+              <div class="row d-flex jsf-between">
+                <div>
+                  <img src="imgs/activity-02.png">
+                  <div>
+                    <p>store</p>
+                    <p>Bought The Mastering c++ Course</p>
+                  </div>
+                </div>
+                <div>
+                  <p>18:10</p>
+                  <p class="c-gray">Yesterday</p>
+                </div>
+              </div>
+              <div class="row d-flex jsf-between">
+                <div>
+                  <img src="imgs/activity-03.png">
+                  <div>
+                    <p>store</p>
+                    <p>Bought The Mastering c++ Course</p>
+                  </div>
+                </div>
+                <div>
+                  <p>18:10</p>
+                  <p class="c-gray">Yesterday</p>
+                </div>
+              </div>
+              <div class="row d-flex jsf-between">
+                <div>
+                  <img src="imgs/activity-01.png">
+                  <div>
+                    <p>store</p>
+                    <p>Bought The Mastering c++ Course</p>
+                  </div>
+                </div>
+                <div>
+                  <p>18:10</p>
+                  <p class="c-gray">Yesterday</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/all.min.js"></script>
+  <script src="js/toggle.js"></script>
+</body>
+
+</html>

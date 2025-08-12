@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desing 4 | Friends</title>
+  <!-- my framework  -->
+  <link rel="stylesheet" href="css/framework.css">
+  <!-- css main file  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page d-flex">
+    <div class="sidebar  bg-white p-10  relative">
+      <h3 class="relative text-c mt-0 pt-10 mb-50 t-bold ">ultimate</h3>
+      <ul>
+        <li>
+          <a href="index.html" class="d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-chart-bar fa-fw"></i>
+            <span class="  pr-50">dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-solid fa-gear fa-fw"></i>
+            <span class="  pr-50">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-user fa-fw"></i>
+            <span class="  pr-50">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="Projects.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-solid fa-diagram-project fa-fw"></i>
+            <span class="  pr-50">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-circle-user fa-fw"></i>
+            <span class="  pr-50">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html" class="active d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-file fa-fw"></i>
+            <span class="  pr-50">Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html" class=" d-flex al-center size-14 radius-5 p-10 c-black">
+            <i class="fa-fw fa-regular fa-credit-card fa-fw"></i>
+            <span class="  pr-50">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content relative">
+      <div class="header bg-white d-flex al-center jsf-between pl-5 p-10">
+        <div class="search relative">
+          <input class="radius-10 ml-5 pl-30 focus" type="search" placeholder="type a keyword">
+        </div>
+        <div class="icons d-flex al-center  pl-5">
+          <span class="relative notifaction">
+            <i class="fa-fw fa-regular fa-bell fa-shake size-20"></i>
+          </span>
+          <img src="imgs/avatar.png">
+        </div>
+      </div>
+      <h1 class="relative size-32">Files</h1>
+      <div class="files-page d-flex gap-20 m-20 m-mobile-10">
+        <div class="files-status widget">
+          <h2 class="mt-0 mb-15 text-mobile-c">files Status</h2>
+          <div class="file-row d-flex jsf-between border-eee-1 p-5 radius-5">
+            <div class="info d-flex">
+              <i class="fa-solid fa-file-pdf c-blue bg-blue-tr fa-fw  fa-lg p-10 d-flex jsf-center"></i>
+              <div class="ml-5">
+                <h5 class="m-0 mb-5">PDF Files</h5>
+                <p class="m-0 mb-5 c-gray">124</p>
+              </div>
+            </div>
+            <p class="size c-gray">1.1GB</p>
+          </div>
+          <div class="file-row d-flex jsf-between border-eee-1 p-5 radius-5">
+            <div class="info d-flex">
+              <i class="fa-solid fa-file-archive  c-red bg-red-tr fa-fw  fa-lg p-10 d-flex jsf-center"></i>
+              <div class="ml-5">
+                <h5 class="m-0 mb-5">Zip Files</h5>
+                <p class="m-0 mb-5 c-gray">28</p>
+              </div>
+            </div>
+            <p class="size c-gray">18GB</p>
+          </div>
+          <div class="file-row d-flex jsf-between border-eee-1 p-5 radius-5">
+            <div class="info d-flex">
+              <i class="fa-solid fa-file-audio c-green bg-green-tr fa-fw  fa-lg p-10 d-flex jsf-center"></i>
+              <div class="ml-5">
+                <h5 class="m-0 mb-5">MP3 Files</h5>
+                <p class="m-0 mb-5 c-gray">46</p>
+              </div>
+            </div>
+            <p class="size c-gray">740Mb</p>
+          </div>
+          <div class="file-row d-flex jsf-between border-eee-1 p-5 radius-5">
+            <div class="info d-flex">
+              <i class="fa-regular fa-images fa-lg bg-orange-tr jsf-center c-orange p-10"></i>
+              <div class="ml-5">
+                <h5 class="m-0 mb-5">Png Files</h5>
+                <p class="m-0 mb-5 c-gray">128</p>
+              </div>
+            </div>
+            <p class="size c-gray">215MB</p>
+          </div>
+          <div class="file-row d-flex jsf-between border-eee-1 p-5 radius-5">
+            <div class="info d-flex">
+              <i class="fa-solid fa-file-word fa-fw fa-lg bg-white-alt jsf-center c-gray p-10"></i>
+              <div class="ml-5">
+                <h5 class="m-0 mb-5">word Files</h5>
+                <p class="m-0 mb-5 c-gray">7</p>
+              </div>
+            </div>
+            <p class="size c-gray">21MB</p>
+          </div>
+          <div class="file-row">
+            <div class="button bg-green upload"><i class="fa-solid fa-angles-up"></i> upload</div>
+          </div>
+        </div>
+        <div class="files-boxs">
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+          <div class="box widget p-10">
+            <i class="fa-solid fa-download"></i>
+            <div class="img">
+              <img src="imgs/png.svg" alt="">
+              <p class="m-0">png file</p>
+            </div>
+            <p class="c-gray wd-full border-b-eee-1 pb-5">ahmed</p>
+            <div class="d-flex jsf-between">
+              <p class="c-gray m-0 size-12">DD/MM/YYYY</p>
+              <p class="c-gray m-0 size-12">size</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/ultimate.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+
+</html>

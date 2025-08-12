@@ -1,0 +1,101 @@
+.bg-white {
+    background-color: white;
+}
+
+.bg-white-alt {
+    background-color: #eee;
+}
+
+.bg-black {
+    color: black;
+    transition: all 0.3s linear 0.1s;
+}
+
+.bg-black-alt,
+a.bg-black:hover,
+button.bg-black:hover,
+input.bg- {
+    background-color: #222;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+    transition: all 0.3s linear 0.1s;
+}
+
+.bg-blue-tr {
+    background-color: var(--blue-color-transparent);
+}
+
+.bg-blue-alt,
+button.bg-blue:hover,
+a.bg-blue:hover,
+input.bg-blue:hover {
+    background-color: var(--blue-alt-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+    transition: all 0.3s linear 0.1s;
+}
+
+.bg-orange-tr {
+    background-color: var(--orange-color-tr);
+}
+
+.bg-orange-alt,
+a.bg-orange:hover,
+input.bg-orange:hover,
+button.bg-orange:hover {
+    background-color: var(--orange-color-alt)
+}
+
+.bg-green {
+    transition: all 0.3s linear 0.1s;
+    background-color: var(--green-color);
+}
+
+.bg-green-tr {
+    background-color: var(--green-color-transparent);
+}
+
+.bg-green-alt,
+a.bg-green:hover,
+button.bg-green:hover,
+input.bg-green:hover {
+    background-color: var(--green-color-alt);
+}
+
+.bg-red {
+    transition: all 0.3s linear 0.1s;
+    background-color: var(--red-color);
+}
+
+.bg-red-tr {
+    background-color: var(--red-color-transparet);
+}
+
+.bg-red-alt,
+a.bg-red:hover,
+input.bg-red:hover,
+button.bg-red:hover {
+    background-color: var(--red-color-alt);
+}
+
+.bg-gray {
+    transition: all 0.3s linear 0.1s;
+    background-color: var(--grey-color);
+}
+
+.bg-gray-alt,
+a.bg-gray:hover,
+input.bg-gray:hover,
+button.bg-gray:hover {
+    background-color: var(--grey-color-alt);
+}
+
+@for $i from -1 through 9 {
+    .opacity-#{01 + $i} {
+        opacity:#{$i/ 10  +0.1} !important;
+    }
+}

@@ -1,0 +1,121 @@
+@for $i from 0 through 20 {
+  .p-#{$i * 5} {
+    padding:#{$i * 5px} !important;
+  }
+}
+
+.warpper>div:not(.welcom) {
+  @media (max-width:700px) {
+    & {
+      padding: 10px !important;
+    }
+  }
+}
+
+@for $i from 0 through 20 {
+  .m-#{$i * 5} {
+    margin:#{$i * 5px} !important;
+  }
+}
+
+@media (max-width:800px) {
+  @for $i from 0 through 20 {
+    .m-mobile-#{$i * 5} {
+      margin:#{$i * 5px} !important;
+    }
+  }
+}
+
+@for $i from 0 through 20 {
+  .m-t-b-#{$i * 5} {
+    margin: {
+      top: #{$i * 5px} !important;
+      bottom: #{$i * 5px} !important;
+    }
+  }
+}
+
+@for $i from 0 through 20 {
+  .m-l-r-#{$i * 5} {
+    margin: {
+      left: #{$i * 5px} !important;
+      right: #{$i * 5px} !important;
+    }
+  }
+}
+
+@for $i from 0 through 20 {
+  .p-t-b-#{$i * 5} {
+    padding: {
+      top: #{$i * 5px} !important;
+      bottom: #{$i * 5px} !important;
+    }
+  }
+}
+
+@for $i from 0 through 20 {
+  .p-l-r-#{$i * 5} {
+    padding: {
+      left: #{$i * 5px} !important;
+      right: #{$i * 5px} !important;
+    }
+  }
+}
+
+@for $i from 0 through 20 {
+  .pt-#{$i * 5} {
+    padding-top:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .mt-#{$i * 5} {
+    margin-top:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .pr-#{$i * 5} {
+    padding-right:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .mr-#{$i * 5} {
+    margin-right:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .pb-#{$i * 5} {
+    padding-bottom:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .mb-#{$i * 5} {
+    margin-bottom:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .pl-#{$i * 5} {
+    padding-left:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 20 {
+  .ml-#{$i * 5} {
+    margin-left:#{$i * 5px} !important;
+  }
+}
+
+@for $i from 0 through 5 {
+  .radius-#{$i * 5} {
+    border-radius:#{$i * 5px} !important;
+  }
+}
+
+.radius-half {
+  border-radius: 50% !important;
+}
